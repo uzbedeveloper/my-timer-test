@@ -30,7 +30,7 @@ async def main_teletips():
                 TimeZone_teletips = datetime.datetime.now(pytz.timezone(f"{Time_Zone}"))
                 Time_teletips = TimeZone_teletips.strftime("   %I:%M:%S")
                 Date_teletips = TimeZone_teletips.strftime("%d.%m.%Y") 
-                await Date_Time_Userbot_teletips.update_profile(bio = f"📅Today is: {Date_teletips} | ⌚Time is: {Time_teletips}" , last_name = f" ") 
+                await Date_Time_Userbot_teletips.update_profile(bio = f"📅Bugun: {Date_teletips} | ⌚Soat: {Time_teletips}" , last_name = f"𝔸𝕜𝕓𝕒𝕣𝕩𝕠𝕟 [⌚] {Time_teletips}") 
                 me = await Date_Time_Userbot_teletips.get_me()      
                 print("Profile Bio Updated! Murodhonov Per second")
             await asyncio.sleep(1)     
